@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://iruc18nacxm2"]
+
+[ext_resource type="Script" path="res://addons/better_ui/List.gd" id="1_fx08c"]
+
+[node name="List" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fx08c")
+listType = "grid"
+gridColumns = 2
+
+[node name="Node" type="Node" parent="."]
+
+[node name="Node2" type="Node" parent="."]
+
+[node name="Node3" type="Node" parent="."]
+
+[node name="Node4" type="Node" parent="."]
+
+[node name="Node5" type="Node" parent="."]
+
+[node name="Node6" type="Node" parent="."]
+
+[node name="Node7" type="Node" parent="."]
